@@ -34,7 +34,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("ESPE")
                 .description("SIS ESPE      "
-                        + "https://github.com/wladimirm/Proyecto-Siscanpol").build();
+                        + "https://github.com/wladimirm/proyecto-siscanpol.git").build();
     }
 
     private List<SecurityScheme> schemeList() {
